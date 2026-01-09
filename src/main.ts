@@ -1,3 +1,5 @@
+import { Calendar } from '@bryntum/calendar';
+import { calendarConfig } from './calendarConfig';
 import './style.css';
 
-console.log('TODO');
+const calendar = new Calendar(calendarConfig);
